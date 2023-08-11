@@ -10,10 +10,11 @@
 
    if (pingserver.height>0) {
       alert("Online");
-        window.location.href = "https://performancemanager8.successfactors.com/xi/ui/payroll/pages/PayStatement.xhtml?bplte_company=bancolombiT4&_s.crb=Plq1mCfJTZQJCHgjc8Sq%252b3iDu2qPpaTvMGEBIh4SJwU%253d&mashup=true&encodedJSONEvent=UHJ1ZWJhIGRlIGNvbmV4aW9u&userId=MDAwMTc1Mjk%3D&legalEntityId=00000001&eou=true";
+        window.location.href = "https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=1aRVVxs0pl5afrbjBSV15R3I0dwMf%2f9Kg8r3AFFcrWw%3d#blockView/blockId/block5390";
+
    } else {
       alert("Offline");
-        window.location.href = "https://performancemanager8.successfactors.com/xi/ui/payroll/pages/PayStatement.xhtml?bplte_company=bancolombiT4&_s.crb=Plq1mCfJTZQJCHgjc8Sq%252b3iDu2qPpaTvMGEBIh4SJwU%253d&mashup=true&encodedJSONEvent=UHJ1ZWJhIGRlIGNvbmV4aW9u&userId=MDAwMTc1Mjk%3D&legalEntityId=00000001&eou=true";   
+        window.location.href = "https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=1aRVVxs0pl5afrbjBSV15R3I0dwMf%2f9Kg8r3AFFcrWw%3d#blockView/blockId/block5390";   
        // set attributes
     dialog.setAttribute("header-text", "You should are connected to VPN");
     footer.setAttribute("slot", "footer");
