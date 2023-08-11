@@ -1,5 +1,5 @@
 (function () {
- var url = "https://www.tutorialspoint.com/";
+ var url = "https://www.tutorialspoint.com/"; 
  $.ajax({
         type: 'GET',
         dataType: 'json',
