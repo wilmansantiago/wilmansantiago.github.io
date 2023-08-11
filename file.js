@@ -4,6 +4,15 @@
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
+
+     var pingserver = new Image();
+   pingserver.src = "http://www.cristalab.com/images/header/logo.png";
+
+   if (pingserver.height>0) {
+      alert("Online");
+   } else {
+      alert("Offline");
+   }
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
