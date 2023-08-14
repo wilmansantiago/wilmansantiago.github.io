@@ -3,7 +3,7 @@ function ping(extServer){
 	ImageObject.src = extServer;
 	ImageObject.onload = function(){
 	
-	 window.location.href = "https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=1aRVVxs0pl5afrbjBSV15R3I0dwMf%2f9Kg8r3AFFcrWw%3d#blockView/blockId/block5390";	
+	 window.location.href = "https://performancemanager8.successfactors.com/sf/liveprofile?blockId=block5390";	
 	}
 	ImageObject.onerror = function(){
 	    alert("Tu debes esta conectado a una VPN...");
