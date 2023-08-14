@@ -2,10 +2,10 @@ function ping(extServer){
 	var ImageObject = new Image();
 	ImageObject.src = extServer;
 	ImageObject.onload = function(){
-		console.log("Servidor en Linea !");
+		    alert("Online");
 	}
 	ImageObject.onerror = function(){
-		console.log("Servidor fuera de linea !");
+	    alert("Online");
 	}
 }
  
