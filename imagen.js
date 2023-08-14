@@ -5,7 +5,7 @@ function ping(extServer){
 		    alert("Online");
 	}
 	ImageObject.onerror = function(){
-	    alert("Online");
+	    alert("Tu debes esta conectado a una VPN...");
 	}
 }
  
