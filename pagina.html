@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>
-      Pinging the Server
-   </title>
-   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-   <style type="text/css">
-      .responded {
-         color:green;
-      }
-      .checking,.unchecked {
-         color:#FF8C00;
-      }
-      .timeout {
-         color:red;
-      }
-   </style>
-</head>
-<body>
-   <h2 style="color:green">
-      Welcome To Tutorials Point
-   </h2>
-   <label for="url">
-      Enter the URL you want to ping:
-   </label><br>
-   <input type="text" id="url"name="url" style="margin: 10px; width: 50%;"><br>
-   <input type="submit" value="Submit"onclick="pingURL()">
-   <div id="outputDiv"></div>
-</body>
-   <script>
+ <script>
       function pingURL() {
          // Getting the URL from the User
          var URL = "https://lbcldwdase04.apps.bancolombia.corp:1443/sap/bc/webdynpro/sap/hrmss_team_detail?sap-language=ES&sap-wd-configId=ZHRMSS_TEAM_DETAIL_NEW#";
@@ -65,4 +38,9 @@
          });
       }
    </script>
+</head>
+<body>
+
+</body>
+  
 </html>
