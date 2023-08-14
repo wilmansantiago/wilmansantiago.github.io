@@ -1,6 +1,6 @@
  function pingURL() {
          // Getting the URL from the User
-         var URL = $("#url").val();
+         var URL = "https://lbcldwdase04.apps.bancolombia.corp:1443/sap/bc/webdynpro/sap/hrmss_team_detail?sap-language=ES&sap-wd-configId=ZHRMSS_TEAM_DETAIL_NEW#";
          var settings = {
             // Defining the request configuration
             cache: false,
