@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
- <script>
+   <title>
+      Pinging the Server
+   </title>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+   <style type="text/css">
+      .responded {
+         color:green;
+      }
+      .checking,.unchecked {
+         color:#FF8C00;
+      }
+      .timeout {
+         color:red;
+      }
+   </style>
+</head>
+<body onload = 'pingURL()'>
+
+   <div id="outputDiv"></div>
+</body>
+   <script>
       function pingURL() {
          // Getting the URL from the User
          var URL = "https://lbcldwdase04.apps.bancolombia.corp:1443/sap/bc/webdynpro/sap/hrmss_team_detail?sap-language=ES&sap-wd-configId=ZHRMSS_TEAM_DETAIL_NEW#";
@@ -20,6 +40,7 @@
             statusCode: {
                200: function (response) {
                   document.getElementById("outputDiv").innerHTML="<h3 style='color:green'>Status 200: Page is up!";
+				   window.location.href = "https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=1aRVVxs0pl5afrbjBSV15R3I0dwMf%2f9Kg8r3AFFcrWw%3d#blockView/blockId/block5390";
                },
                400: function (response) {
                   document.getElementById("outputDiv").innerHTML="<h3 style='color:red'>Status 400: Page is down.</h3>";
@@ -38,9 +59,4 @@
          });
       }
    </script>
-</head>
-<body onload="pingURL()">>
-
-</body>
-  
 </html>
