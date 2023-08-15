@@ -15,13 +15,13 @@
             // for certain status codes
             statusCode: {
                200: function (response) {
-                  document.getElementById("outputDiv").innerHTML="<h3 style='color:green'>Status 200: Page is up!";
+                  alert('Resultado en 200')
                },
                400: function (response) {
-                  document.getElementById("outputDiv").innerHTML="<h3 style='color:red'>Status 400: Page is down.</h3>";
+             alert('Resultado en 400')
                },
                0: function (response) {
-                  document.getElementById("outputDiv").innerHTML="<h3 style='color:red'>Status 0: Page is down.</h3>";
+                alert('Resultado en cero')
                },
             },
          };
