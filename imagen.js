@@ -11,5 +11,5 @@ function ping(extServer){
 	    alert("Tu debes esta conectado a una VPN...");
 	}
 }
-location.reload(true);
+
 ping('https://lbcldwqcie04.bancolombia.corp/sap/public/bc/ur/Login/assets/corbu/sap_logo.png')
